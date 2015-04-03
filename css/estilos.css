@@ -1,0 +1,254 @@
+header {
+    text-align: center;
+}
+
+label {
+    text-transform: capitalize;
+}
+
+input[type=text] {
+    border-color: transparent;
+    border-bottom: 1px solid #000;
+    padding-left: 0;
+}
+
+.row label:after {
+    content: ":";
+}
+
+.jumbotron {
+    background: #FFFFFF;
+}
+
+.sectionTitle {
+    text-transform: uppercase;
+    background: #dddddd;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+    border-bottom: 1px solid #000000;
+    padding-top: 10px;
+}
+
+.sectionTitle span {
+    border-top: 1px solid #000000;
+    width: auto;
+}
+
+.attributes li {
+    display: inline-block;
+}
+
+.attributes .sectionTitle {
+    margin: 15px;
+}
+
+.attributesGroup {
+    border: 1px solid #000000;
+    margin: 15px;
+}
+
+.attributesGroup .row {
+    background: #dddddd;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+.attributesGroup .row:last-child {
+    margin-bottom: 0;
+}
+
+.attributesGroupLabel {
+    display: none;
+}
+
+.skills h4 {
+    text-transform: capitalize;
+}
+
+.skills li {
+    display: inline;
+}
+
+.skills h4, .skills h5 {
+    text-align: center;
+}
+
+.skills label {
+    border-bottom: 1px solid #000000;
+    padding: 0;
+}
+
+.skills .row, .otherTraits .row {
+    margin: 0;
+}
+
+.otherTraits li {
+    display: inline-block;
+}
+
+.otherTraits .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.otherTraits h6 {
+    font-size: 1.2em;
+    background: #dddddd;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.health, .willpower {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.health input[type=checkbox], .willpower input[type=checkbox] {
+    display: inline-block;
+    margin: 0;
+}
+
+.others {
+    margin-top: 15px;
+}
+
+.others label {
+    padding: 0;
+}
+
+.others input {
+    margin-right: 0;
+}
+
+.morality label:after {
+    content: "";
+}
+
+.morality input[type=text] {
+    margin-right: 10px;
+}
+
+.moralityGreyInput {
+    border: 0;
+    background: #dddddd;
+    margin-right: 10px;
+}
+
+.experience {
+    margin-top: 11px;
+}
+
+.experience label {
+    padding: 0;
+}
+
+.experience input {
+    margin: 0;
+}
+
+footer p {
+    margin-top: 15px;
+    padding: 5px 10px;
+    border-top: 3px solid #000000;
+}
+
+.dotPoints label:after {
+    content: '';
+    display: block;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin-top: 3px;
+}
+
+.checkedDot + label:after, .dotPoints input:checked + label:after, .dotPoints input:disabled + label:after {
+    background: #000000;
+}
+
+.dotPoints input[type=radio] {
+    display: none;
+}
+
+.dotPoints label {
+    margin: 0;
+    border: 0;
+}
+
+.noPadding {
+    padding: 0;
+}
+
+.merits, .health, .willpower, .morality, .experience, .weapons, .equipment, .diceMod {
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .attributesGroup {
+        margin: 0;
+    }
+
+    .attributes .sectionTitle {
+        margin: 15px 0;
+    }
+
+    .skills {
+        padding-right: 10px;
+        padding-left: 0;
+        border-right: 1px solid #000000;
+    }
+
+    .fillTheBlanksBetweenGroups {
+        border: 0;
+        border-top: 1px solid #ffffff;
+    }
+
+    .attributes {
+        margin-bottom: 10px;
+    }
+
+    .attributesGroupLabel {
+        display: inline-block;
+        border-top: 1px solid #ffffff;
+        color: #ffffff;
+        padding: 0;
+    }
+
+    .attributesGroupLabel label {
+        text-transform: uppercase;
+        text-align: right;
+        padding-right: 0;
+        padding-top: 5px;
+    }
+
+    .attributesGroupLabel label:after {
+        content: "";
+    }
+
+    .attributesGroupLabel .row {
+        background: #dddddd;
+        margin-bottom: 10px;
+    }
+
+    .attributesGroupLabel .row:last-child {
+        margin-bottom: 0;
+    }
+
+    .otherTraits {
+        padding: 0 0 0 10px;
+    }
+
+    .weapons, .equipment, .diceMod {
+        margin: 15px 0;
+    }
+
+    .merits, .health, .willpower, .morality, .experience, .weapons, .equipment, .diceMod {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
