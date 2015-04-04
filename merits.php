@@ -24,6 +24,7 @@
     </div>
     <div class="row">
         <input type="text" id="merits-text-2" class="col-xs-9">
+
         <div class="dotPoints">
             <input type="radio" id="merits-2-dot-1" name="merits-2" value="1" onchange="checkDot(this)">
             <label for="merits-2-dot-1"></label>

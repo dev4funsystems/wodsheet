@@ -1,5 +1,15 @@
+/* ----- GENERAL */
+
 header {
     text-align: center;
+}
+
+header h1 span {
+    display: block;
+    text-indent: -9999px;
+    width: 250px;
+    height: 95px;
+    background-image: url("../imgs/wod-logo-xs.png");
 }
 
 label {
@@ -10,6 +20,7 @@ input[type=text] {
     border-color: transparent;
     border-bottom: 1px solid #000;
     padding-left: 0;
+    padding-right: 0;
 }
 
 .row label:after {
@@ -20,6 +31,13 @@ input[type=text] {
     background: #FFFFFF;
 }
 
+.noSidePadding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* ----- SECTION TITLE */
+
 .sectionTitle {
     text-transform: uppercase;
     background: #dddddd;
@@ -27,13 +45,50 @@ input[type=text] {
     text-align: center;
     font-size: 1.2em;
     border-bottom: 1px solid #000000;
-    padding-top: 10px;
 }
 
 .sectionTitle span {
     border-top: 1px solid #000000;
     width: auto;
 }
+
+/* ----- DOTS */
+
+.checkedDot + label:after, .dotPoints input:checked + label:after, .dotPoints input:disabled + label:after {
+    background: #000000;
+}
+
+.dotPoints input[type=radio] {
+    display: none;
+}
+
+.dotPoints label {
+    margin: 0;
+    border: 0;
+}
+
+.dotPoints label:after {
+    content: '';
+    display: block;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin-top: 3px;
+}
+
+.dotPoints {
+    text-align: center;
+}
+
+/* ----- INFO */
+
+.info input[type=text] {
+    width: 100%;
+}
+
+/* ----- ATTRIBUTES */
 
 .attributes li {
     display: inline-block;
@@ -62,6 +117,8 @@ input[type=text] {
     display: none;
 }
 
+/* ----- SKILLS */
+
 .skills h4 {
     text-transform: capitalize;
 }
@@ -74,14 +131,17 @@ input[type=text] {
     text-align: center;
 }
 
-.skills label {
+.skills .skillLabel {
     border-bottom: 1px solid #000000;
     padding: 0;
 }
 
-.skills .row, .otherTraits .row {
-    margin: 0;
+.skills .row {
+    margin-left: 0;
+    margin-right: 0;
 }
+
+/* ----- OTHER TRAITS */
 
 .otherTraits li {
     display: inline-block;
@@ -102,6 +162,18 @@ input[type=text] {
     text-transform: capitalize;
 }
 
+.otherTraits .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.merits, .otherTraitsColumn {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* ----- HEALTH */
+
 .health, .willpower {
     text-align: center;
     margin: 15px 0;
@@ -111,6 +183,8 @@ input[type=text] {
     display: inline-block;
     margin: 0;
 }
+
+/* ----- OTHERS */
 
 .others {
     margin-top: 15px;
@@ -124,8 +198,15 @@ input[type=text] {
     margin-right: 0;
 }
 
+/* ----- MORALITY */
+
 .morality label:after {
     content: "";
+}
+
+.morality label {
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .morality input[type=text] {
@@ -136,7 +217,11 @@ input[type=text] {
     border: 0;
     background: #dddddd;
     margin-right: 10px;
+    padding-left: 0;
+    padding-right: 0;
 }
+
+/* ----- EXPERIENCE */
 
 .experience {
     margin-top: 11px;
@@ -150,45 +235,36 @@ input[type=text] {
     margin: 0;
 }
 
+/* ----- WEAPONS, EQUIPMENT AND DICE MOD */
+
+.weapons, .equipment, .diceMod {
+    margin-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* ----- FOOTER */
+
 footer p {
     margin-top: 15px;
     padding: 5px 10px;
     border-top: 3px solid #000000;
 }
 
-.dotPoints label:after {
-    content: '';
-    display: block;
-    background: #ffffff;
-    border: 1px solid #000000;
-    border-radius: 50%;
-    width: 12px;
-    height: 12px;
-    margin-top: 3px;
-}
-
-.checkedDot + label:after, .dotPoints input:checked + label:after, .dotPoints input:disabled + label:after {
-    background: #000000;
-}
-
-.dotPoints input[type=radio] {
-    display: none;
-}
-
-.dotPoints label {
-    margin: 0;
-    border: 0;
-}
-
-.noPadding {
-    padding: 0;
-}
-
-.merits, .health, .willpower, .morality, .experience, .weapons, .equipment, .diceMod {
-    padding: 0;
-}
-
 @media (min-width: 768px) {
+    header h1 span {
+        display: block;
+        margin: 0 auto;
+        text-indent: -9999px;
+        width: 400px;
+        height: 152px;
+        background-image: url("../imgs/wod-logo-md.png");
+    }
+
+    .accordion-section a {
+        display: none;
+    }
+
     .attributesGroup {
         margin: 0;
     }
@@ -243,12 +319,21 @@ footer p {
         padding: 0 0 0 10px;
     }
 
-    .weapons, .equipment, .diceMod {
-        margin: 15px 0;
+    .merits input[type=text] {
+        width: 82%;
     }
 
-    .merits, .health, .willpower, .morality, .experience, .weapons, .equipment, .diceMod {
+    .weapons, .equipment, .diceMod {
+        margin: 15px 0;
+        padding-left: 0;
+    }
+
+    .diceMod {
         padding-left: 15px;
-        padding-right: 15px;
+        padding-right: 0;
+    }
+
+    .health, .willpower, .morality, .experience {
+        padding-left: 15px;
     }
 }

@@ -7,7 +7,7 @@
     <h5>(-3 unskilled)</h5>
 
     <div class="row">
-        <label class="col-xs-9 col-md-8">academics</label>
+        <label class="skillLabel col-xs-9 col-md-8">academics</label>
 
         <div class="dotPoints">
             <input type="radio" id="academics-dot-1" name="academics" value="1" onchange="checkDot(this)"
@@ -27,8 +27,9 @@
             <label for="academics-dot-5"></label>
         </div>
     </div>
+
     <div class="row">
-        <label class="col-xs-9 col-md-8">computer</label>
+        <label class="skillLabel col-xs-9 col-md-8">computer</label>
 
         <div class="dotPoints">
             <input type="radio" id="computer-dot-1" name="computer" value="1" onchange="checkDot(this)"
@@ -49,7 +50,7 @@
         </div>
     </div>
     <div class="row">
-        <label class="col-xs-9 col-md-8">crafts</label>
+        <label class="skillLabel col-xs-9 col-md-8">crafts</label>
 
         <div class="dotPoints">
             <input type="radio" id="crafts-dot-1" name="crafts" value="1" onchange="checkDot(this)"
@@ -70,7 +71,7 @@
         </div>
     </div>
     <div class="row">
-        <label class="col-xs-9 col-md-8">investigation</label>
+        <label class="skillLabel col-xs-9 col-md-8">investigation</label>
 
         <div class="dotPoints">
             <input type="radio" id="investigation-dot-1" name="investigation" value="1" onchange="checkDot(this)"
@@ -91,7 +92,7 @@
         </div>
     </div>
     <div class="row">
-        <label class="col-xs-9 col-md-8">medicine</label>
+        <label class="skillLabel col-xs-9 col-md-8">medicine</label>
 
         <div class="dotPoints">
             <input type="radio" id="medicine-dot-1" name="medicine" value="1" onchange="checkDot(this)"
@@ -112,7 +113,7 @@
         </div>
     </div>
     <div class="row">
-        <label class="col-xs-9 col-md-8">occult</label>
+        <label class="skillLabel col-xs-9 col-md-8">occult</label>
 
         <div class="dotPoints">
             <input type="radio" id="occult-dot-1" name="occult" value="1" onchange="checkDot(this)"
@@ -133,7 +134,7 @@
         </div>
     </div>
     <div class="row">
-        <label class="col-xs-9 col-md-8">politics</label>
+        <label class="skillLabel col-xs-9 col-md-8">politics</label>
 
         <div class="dotPoints">
             <input type="radio" id="politics-dot-1" name="politics" value="1" onchange="checkDot(this)"
@@ -154,7 +155,7 @@
         </div>
     </div>
     <div class="row">
-        <label class="col-xs-9 col-md-8">science</label>
+        <label class="skillLabel col-xs-9 col-md-8">science</label>
 
         <div class="dotPoints">
             <input type="radio" id="science-dot-1" name="science" value="1" onchange="checkDot(this)"
@@ -179,7 +180,7 @@
     <h5>(-1 unskilled)</h5>
 
     <div class="row">
-        <label class="col-xs-9 col-md-8">athletics</label>
+        <label class="skillLabel col-xs-9 col-md-8">athletics</label>
 
         <div class="dotPoints">
             <input type="radio" id="athletics-dot-1" name="athletics" value="1" onchange="checkDot(this)"
@@ -200,7 +201,7 @@
         </div>
     </div>
     <div class="row">
-        <label class="col-xs-9 col-md-8">brawl</label>
+        <label class="skillLabel col-xs-9 col-md-8">brawl</label>
 
         <div class="dotPoints">
             <input type="radio" id="brawl-dot-1" name="brawl" value="1" onchange="checkDot(this)" class="checkedDot"
@@ -221,7 +222,7 @@
         </div>
     </div>
     <div class="row">
-        <label class="col-xs-9 col-md-8">drive</label>
+        <label class="skillLabel col-xs-9 col-md-8">drive</label>
 
         <div class="dotPoints">
             <input type="radio" id="drive-dot-1" name="drive" value="1" onchange="checkDot(this)" class="checkedDot"
@@ -242,7 +243,7 @@
         </div>
     </div>
     <div class="row">
-        <label class="col-xs-9 col-md-8">firearms</label>
+        <label class="skillLabel col-xs-9 col-md-8">firearms</label>
 
         <div class="dotPoints">
             <input type="radio" id="firearms-dot-1" name="firearms" value="1" onchange="checkDot(this)"
@@ -263,7 +264,7 @@
         </div>
     </div>
     <div class="row">
-        <label class="col-xs-9 col-md-8">larceny</label>
+        <label class="skillLabel col-xs-9 col-md-8">larceny</label>
 
         <div class="dotPoints">
             <input type="radio" id="larceny-dot-1" name="larceny" value="1" onchange="checkDot(this)"
@@ -284,7 +285,7 @@
         </div>
     </div>
     <div class="row">
-        <label class="col-xs-9 col-md-8">stealth</label>
+        <label class="skillLabel col-xs-9 col-md-8">stealth</label>
 
         <div class="dotPoints">
             <input type="radio" id="stealth-dot-1" name="stealth" value="1" onchange="checkDot(this)"
@@ -305,7 +306,7 @@
         </div>
     </div>
     <div class="row">
-        <label class="col-xs-9 col-md-8">survival</label>
+        <label class="skillLabel col-xs-9 col-md-8">survival</label>
 
         <div class="dotPoints">
             <input type="radio" id="survival-dot-1" name="survival" value="1" onchange="checkDot(this)"
@@ -326,7 +327,7 @@
         </div>
     </div>
     <div class="row">
-        <label class="col-xs-9 col-md-8">weaponry</label>
+        <label class="skillLabel col-xs-9 col-md-8">weaponry</label>
 
         <div class="dotPoints">
             <input type="radio" id="weaponry-dot-1" name="weaponry" value="1" onchange="checkDot(this)"
@@ -351,7 +352,7 @@
     <h5>(-1 unskilled)</h5>
 
     <div class="row">
-        <label class="col-xs-9 col-md-8">animal ken</label>
+        <label class="skillLabel col-xs-9 col-md-8">animal ken</label>
 
         <div class="dotPoints">
             <input type="radio" id="animalKen-dot-1" name="animalKen" value="1" onchange="checkDot(this)"
@@ -372,7 +373,7 @@
         </div>
     </div>
     <div class="row">
-        <label class="col-xs-9 col-md-8">empathy</label>
+        <label class="skillLabel col-xs-9 col-md-8">empathy</label>
 
         <div class="dotPoints">
             <input type="radio" id="empathy-dot-1" name="empathy" value="1" onchange="checkDot(this)"
@@ -393,7 +394,7 @@
         </div>
     </div>
     <div class="row">
-        <label class="col-xs-9 col-md-8">expression</label>
+        <label class="skillLabel col-xs-9 col-md-8">expression</label>
 
         <div class="dotPoints">
             <input type="radio" id="expression-dot-1" name="expression" value="1" onchange="checkDot(this)"
@@ -414,7 +415,7 @@
         </div>
     </div>
     <div class="row">
-        <label class="col-xs-9 col-md-8">intimidation</label>
+        <label class="skillLabel col-xs-9 col-md-8">intimidation</label>
 
         <div class="dotPoints">
             <input type="radio" id="intimidation-dot-1" name="intimidation" value="1" onchange="checkDot(this)"
@@ -435,7 +436,7 @@
         </div>
     </div>
     <div class="row">
-        <label class="col-xs-9 col-md-8">persuation</label>
+        <label class="skillLabel col-xs-9 col-md-8">persuation</label>
 
         <div class="dotPoints">
             <input type="radio" id="persuation-dot-1" name="persuation" value="1" onchange="checkDot(this)"
@@ -456,7 +457,7 @@
         </div>
     </div>
     <div class="row">
-        <label class="col-xs-9 col-md-8">socialize</label>
+        <label class="skillLabel col-xs-9 col-md-8">socialize</label>
 
         <div class="dotPoints">
             <input type="radio" id="socialize-dot-1" name="socialize" value="1" onchange="checkDot(this)"
@@ -477,7 +478,7 @@
         </div>
     </div>
     <div class="row">
-        <label class="col-xs-9 col-md-8">streetwise</label>
+        <label class="skillLabel col-xs-9 col-md-8">streetwise</label>
 
         <div class="dotPoints">
             <input type="radio" id="streetwise-dot-1" name="streetwise" value="1" onchange="checkDot(this)"
@@ -498,7 +499,7 @@
         </div>
     </div>
     <div class="row">
-        <label class="col-xs-9 col-md-8">subterfuge</label>
+        <label class="skillLabel col-xs-9 col-md-8">subterfuge</label>
 
         <div class="dotPoints">
             <input type="radio" id="subterfuge-dot-1" name="subterfuge" value="1" onchange="checkDot(this)"
