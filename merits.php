@@ -175,5 +175,24 @@
             <label for="merits-9-dot-5"></label>
         </div>
     </div>
+    <div class="row">
+        <input type="text" id="merits-text-9" class="col-xs-9">
+        <div class="dotPoints">
+            <input type="radio" id="merits-9-dot-1" name="merits-9" value="1" onchange="checkDot(this)">
+            <label for="merits-9-dot-1"></label>
+
+            <input type="radio" id="merits-9-dot-2" name="merits-9" value="2" onchange="checkDot(this)">
+            <label for="merits-9-dot-2"></label>
+
+            <input type="radio" id="merits-9-dot-3" name="merits-9" value="3" onchange="checkDot(this)">
+            <label for="merits-9-dot-3"></label>
+
+            <input type="radio" id="merits-9-dot-4" name="merits-9" value="4" onchange="checkDot(this)">
+            <label for="merits-9-dot-4"></label>
+
+            <input type="radio" id="merits-9-dot-5" name="merits-9" value="5" onchange="checkDot(this)">
+            <label for="merits-9-dot-5"></label>
+        </div>
+    </div>
 </div>
 

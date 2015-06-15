@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/mobile.css" media="(max-width:939px)">
 </head>
 <body>
 <div class="container">
@@ -44,12 +43,18 @@
 
                     <?php include("morality.php") ?>
 
-                    <?php include("experience.php") ?>
+                    <div class="row maximizeInputText">
+                        <?php include("experience.php") ?>
+                    </div>
                 </div>
 
-                <?php include("weapons.php") ?>
+                <div class="row maximizeInputText">
+                    <?php include("weapons.php") ?>
+                </div>
 
-                <?php include("equipment.php") ?>
+                <div class="row maximizeInputText">
+                    <?php include("equipment.php") ?>
+                </div>
             </div>
         </section>
     </form>

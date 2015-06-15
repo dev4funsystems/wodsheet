@@ -26,6 +26,7 @@ input[type=text] {
 
 .jumbotron {
     background: #FFFFFF;
+    margin-bottom: 5px;
 }
 
 .noSidePadding {
@@ -80,6 +81,10 @@ input[type=text] {
 }
 
 /* ----- INFO */
+
+.info label {
+    margin-top: 15px;
+}
 
 .info input[type=text] {
     width: 100%;
@@ -136,6 +141,7 @@ input[type=text] {
 .skills .row {
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 15px;
 }
 
 /* ----- OTHER TRAITS */
@@ -227,23 +233,23 @@ input[type=text] {
 /* ----- EXPERIENCE */
 
 .experience {
-    margin-top: 11px;
+    margin-top: 26px;
 }
 
-.experience label {
+.experience .row label {
     padding: 0;
-}
-
-.experience input {
-    margin: 0;
 }
 
 /* ----- WEAPONS, EQUIPMENT AND DICE MOD */
 
-.weapons, .equipment, .diceMod {
+.equipment {
     margin-top: 20px;
     padding-left: 0;
     padding-right: 0;
+}
+
+.maximizeInputText input {
+    width: 100%;
 }
 
 /* ----- FOOTER */
@@ -264,8 +270,8 @@ footer p {
         background-image: url("../imgs/wod-logo-md.png");
     }
 
-    .accordion-section a {
-        display: none;
+    .info label {
+        margin-top: 0;
     }
 
     .attributesGroup {
@@ -280,6 +286,10 @@ footer p {
         padding-right: 10px;
         padding-left: 0;
         border-right: 1px solid #000000;
+    }
+
+    .skills .row {
+        margin-bottom: 0;
     }
 
     .fillTheBlanksBetweenGroups {
@@ -326,13 +336,13 @@ footer p {
         width: 82%;
     }
 
-    .weapons, .equipment, .diceMod {
+    .equipment {
         margin: 15px 0;
         padding-left: 0;
     }
 
-    .diceMod {
-        padding-left: 15px;
+    .field {
+        margin-left: 18px;
         padding-right: 0;
     }
 
