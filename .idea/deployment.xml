@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="wodsheet">
+    <serverData>
+      <paths name="wodsheet">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/wodsheet" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
