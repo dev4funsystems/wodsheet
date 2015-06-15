@@ -5,7 +5,7 @@
       <paths name="wodsheet">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/wodsheet" />
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/wodsheet" />
           </mappings>
         </serverdata>
       </paths>

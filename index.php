@@ -13,8 +13,8 @@
 </head>
 <body>
 <div class="container">
-    <header class="jumbotron">
-        <h1><span>world of darkness</span></h1>
+	<header class="jumbotron">
+        <h1>world of darkness</h1>
     </header>
     <form>
         <?php include("info.php")  ?>
