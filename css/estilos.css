@@ -52,7 +52,7 @@ input[type=text] {
 
 /* ----- DOTS */
 
-.checkedDot + label:after, .dotPoints input:checked + label:after, .dotPoints input:disabled + label:after {
+.checkedDot + label:after, .dotPoints input:disabled + label:after {
     background: #000000;
 }
 
@@ -68,8 +68,8 @@ input[type=text] {
 .dotPoints label:after {
     content: '';
     display: block;
-    background: #ffffff;
-    border: 1px solid #000000;
+    background: #fff;
+    border: 1px solid #000;
     border-radius: 50%;
     width: 12px;
     height: 12px;
@@ -175,12 +175,6 @@ input[type=text] {
     padding-right: 0;
 }
 
-#flaws {
-    width: 100%;
-    resize: none;
-    height: 60px;
-}
-
 /* ----- HEALTH */
 
 .health, .willpower {
@@ -233,7 +227,7 @@ input[type=text] {
 /* ----- EXPERIENCE */
 
 .experience {
-    margin-top: 26px;
+    margin-top: 36px;
 }
 
 .experience .row label {

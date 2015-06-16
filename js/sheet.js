@@ -1,7 +1,6 @@
 function checkDot(obj) {
     var id = "[id=" + obj.name;
 
-    var obj1 = $(id + "-dot-2]");
     var obj2 = $(id + "-dot-2]");
     var obj3 = $(id + "-dot-3]");
     var obj4 = $(id + "-dot-4]");
