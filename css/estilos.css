@@ -52,10 +52,6 @@ input[type=text] {
 
 /* ----- DOTS */
 
-.checkedDot + label:after, .dotPoints input:disabled + label:after {
-    background: #000000;
-}
-
 .dotPoints input[type=radio] {
     display: none;
 }
@@ -78,6 +74,10 @@ input[type=text] {
 
 .dotPoints {
     text-align: center;
+}
+
+.checkedDot + label:after, .dotPoints input:disabled + label:after {
+    background: #000000;
 }
 
 /* ----- INFO */
