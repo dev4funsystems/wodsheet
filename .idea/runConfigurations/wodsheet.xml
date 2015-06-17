@@ -1,7 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="wodsheet" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/" host="0.0.0.0" port="8080">
-    <RunnerSettings RunnerId="PhpRunner" />
-    <ConfigurationWrapper RunnerId="PhpRunner" />
-    <method />
-  </configuration>
-</component>
