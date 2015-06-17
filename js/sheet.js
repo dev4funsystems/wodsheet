@@ -1,5 +1,6 @@
+var checkedDot = "checkedDot";
+
 function checkDot(obj, firstAlwaysChecked) {
-    var checkedDot = "checkedDot";
     var value = obj.value;
     var array = $("[name="+obj.name+"]");
 
