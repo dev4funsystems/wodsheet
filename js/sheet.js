@@ -1,5 +1,17 @@
 var checkedDot = "checkedDot";
 
+$("[name=morality]").click(function(){
+    var value = this.value;
+    var array = $("[name=morality]");
+    for (var i = 0; i < array.length; i++) {
+        if (array[i].value == value) {
+            array[i].className = checkedDot;
+        } else {
+            array[i].className = "";
+        }
+    }
+});
+
 function checkDot(obj, firstAlwaysChecked) {
     var value = obj.value;
     var array = $("[name="+obj.name+"]");
